@@ -1,0 +1,91 @@
+.gambidiv {
+  display: inline;
+}
+
+.link {
+  color: #fff;
+}
+
+p { font-family: 'arial'; }
+a { font-family: 'arial'; }
+
+ul.nav a:hover {
+  color: #fff !important;
+  background-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul.nav a {
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: #fff !important;
+  background-color: transparent;
+  letter-spacing: 1px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.row.content {height: 450px}
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+footer {
+  padding: 1%;
+  padding-top: 2%;
+}
+
+nav {
+  padding: 1%;
+  padding-top: 1%;
+}
+
+/
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #1EC188;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #72E9BF;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #72E9BF;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
